@@ -2,7 +2,7 @@ const path = require('path');
 var webpack =require("webpack");
 
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/playground/Redux-101.js',
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
