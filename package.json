@@ -23,6 +23,7 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-modal": "^3.10.1",
+    "react-redux": "^7.1.1",
     "react-router-dom": "^4.2.2",
     "redux": "^4.0.4",
     "sass-loader": "^6.0.6",
