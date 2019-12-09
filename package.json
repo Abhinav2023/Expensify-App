@@ -6,7 +6,7 @@
     "serve": "live-server public/",
     "build": "webpack",
     "dev-server": "webpack-dev-server",
-    "test": "jest --config=jest.config.json --watch"
+    "test": "jest --config=jest.config.json"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.4",
+    "enzyme-to-json": "^3.4.3",
     "live-server": "^1.2.1",
     "moment": "^2.24.0",
     "node-sass": "^4.5.3",

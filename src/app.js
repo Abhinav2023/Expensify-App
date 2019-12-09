@@ -9,6 +9,8 @@ import 'normalize.css/normalize.css';
 import './styles/style.scss';
 import AppRouter from './routers/AppRouter';
 
+import 'react-dates/lib/css/_datepicker.css';
+
 const store=configureStore();
 
 store.dispatch(addExpense({description: 'Water Bill',amount: 1000}));
