@@ -11,6 +11,10 @@
     "start": "node server/server.js",
     "heroku-postbuild": "npm run build:prod"
   },
+  "engines": {
+    "npm": "5.6.0",
+    "node": "8.10.0"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
