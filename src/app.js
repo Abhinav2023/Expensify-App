@@ -9,7 +9,6 @@ import 'normalize.css/normalize.css';
 import './styles/style.scss';
 import AppRouter from './routers/AppRouter';
 import firebase from './firebase/firebase'
-
 import 'react-dates/lib/css/_datepicker.css';
 
 const store=configureStore(); 
