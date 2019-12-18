@@ -32,7 +32,7 @@ export const removeExpense = ({ id } = {}) => ({
   id
 });
 
-export const startRemoveExpense=({id}={})=>{
+export const startRemoveExpenses=({id}={})=>{
   return (dispatch)=>{
     return database.ref(`expenses/${id}`).remove().then((ref)=>{
       dispatch(removeExpense({id}))
