@@ -39,6 +39,7 @@
     "react-redux": "^7.1.1",
     "react-router-dom": "^4.2.2",
     "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "uuid": "^3.3.3",

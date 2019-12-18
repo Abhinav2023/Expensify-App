@@ -15,6 +15,8 @@ firebase.initializeApp(firebaseConfig);
  // firebase.analytics();
 const database=firebase.database();
 
+export {firebase , database as default };
+
 // database.ref('expenses').push({
 //     id: '1',
 //     description: "gum",
@@ -23,13 +25,14 @@ const database=firebase.database();
 //     createdAt: 0
 // });
 
-database.ref('expenses').on('child_removed',(snapshot)=>{
-    console.log(snapshot.key, snapshot.val());
-})
+// database.ref('expenses').on('child_removed',(snapshot)=>{
+//     console.log(snapshot.key, snapshot.val());
+// })
 
-database.ref('expenses').on('child_changed',(snapshot)=>{
-    console.log(snapshot.key, snapshot.val());
-});
+// database.ref('expenses').on('child_changed',(snapshot)=>{
+//     console.log(snapshot.key, snapshot.val());
+// });
+
 // database.ref('expenses')
 //     .once('value')
 //     .then((snapshot)=>{
