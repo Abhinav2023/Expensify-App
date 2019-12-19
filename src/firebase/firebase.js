@@ -14,8 +14,9 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
  // firebase.analytics();
 const database=firebase.database();
+const googelAuthProvider=new firebase.auth.GoogleAuthProvider();
 
-export {firebase , database as default };
+export {firebase , googelAuthProvider,database as default };
 
 // database.ref('expenses').push({
 //     id: '1',
