@@ -14,7 +14,7 @@ test("should remove expensesby id",()=>{
     };
     const state=expensesReducer(expenses,action);
     expect(state).toEqual([expenses[0],expenses[2]]);
-})
+});
 
 test("should not remove expenses if id not found",()=>{
     const action={
