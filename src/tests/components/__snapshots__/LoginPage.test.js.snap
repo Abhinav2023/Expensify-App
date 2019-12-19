@@ -3,11 +3,7 @@
 exports[`should render Login Page 1`] = `
 <div>
   <button>
-    <a
-      href="/dashboard"
-    >
-      Login
-    </a>
+    Login
   </button>
 </div>
 `;

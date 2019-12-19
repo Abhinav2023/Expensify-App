@@ -28,6 +28,8 @@ store.dispatch(startSetExpenses()).then(()=>{
 firebase.auth().onAuthStateChanged((user)=>{
     if(user){
         console.log('Log In');
-    }else console.log('Log out');
+    }else{
+        console.log('Log out');
+    } 
 })
 
