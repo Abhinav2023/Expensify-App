@@ -16,9 +16,16 @@ exports[`should render Login Page 1`] = `
       <p>
         This is my first expensify app
       </p>
-      <a>
-        Login
-      </a>
+      <div
+        align="center"
+        class="button_cont"
+      >
+        <a
+          class="example_d"
+        >
+          Login With Google
+        </a>
+      </div>
     </div>
   </div>
 </div>
