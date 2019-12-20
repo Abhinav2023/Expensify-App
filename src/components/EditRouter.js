@@ -26,7 +26,7 @@ export class EditExpensePage extends React.Component{
             onSubmit={this.onSubmit}
           />
           <div class="button_cont" align="center">
-            <a class="example_c" onClick={startRemoveExpenses}>
+            <a class="example_c" onClick={this.onClick}>
               Remove
             </a>
           </div>
