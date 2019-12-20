@@ -2,8 +2,24 @@
 
 exports[`should render Login Page 1`] = `
 <div>
-  <button>
-    Login
-  </button>
+  <div
+    className="box-layout"
+  >
+    <div
+      className="box-layout__box"
+    >
+      <h1
+        className="box-layout__title"
+      >
+        Expensify App
+      </h1>
+      <p>
+        This is my first expensify app
+      </p>
+      <a>
+        Login
+      </a>
+    </div>
+  </div>
 </div>
 `;

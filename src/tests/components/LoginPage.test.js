@@ -10,6 +10,6 @@ test("should render Login Page",()=>{
 test('should call startlogout onclick of Login',()=>{
     const startLogin=jest.fn();
     const wrapper=shallow(<LoginPage startLogin={startLogin}/>);
-    wrapper.find('button').simulate('click');
+    wrapper.find('a').simulate('click');
     expect(startLogin).toHaveBeenCalled();
 });
